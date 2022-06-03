@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <title>Blocks in line</title>
+        
+        <meta charset="utf-8">
+        
+        <style>
+		html {
+		height: 100%;
+		
+		
+		}
+		body {
+		margin: 0;
+		.wrapper {
+		box-sizing: border-box;
+		min-height: 100%;
+		padding-bottom: 200px;
+		}
+		.
+		header {
+		height: 200px;
+		background: pink;
+		
+		}
+		main {
+		height: 200px;
+		background: gray;
+		}
+		
+		footer {
+		height: 200px;
+		background: yellow;
+		}
+		
+	  	  </style>
+		  
+		  </head>
+    
+    <body>
+	<div class="wrapper">
+	<header></header>
+	<main></main>
+	<footer></footer>
+	
+	
+	</div>
+	</body>
+</html>
+	
+		

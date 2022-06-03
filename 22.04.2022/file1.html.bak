@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <title>Форма</title>
+        
+        <meta charset="utf-8">
+    </head>
+    
+    <body>
+        <h1>Форма для регистрации участников форума Сергея Трофимова</h1>
+        
+        <form action="#" method="GET">
+        <!-- <form action="#" method="POST"> -->
+            <fieldset>
+                <legend>Ваши данные</legend>
+				Имя <br><input type="text" name="f1">
+				<br>
+				Фамилия <br><input type="text" name="last_name">
+				<br>
+				E-mail <br><input type="text" name="email"><br> <p>
+				Пароль <br><input type="password" name="f2"><br> <p>
+				
+                Загрузите вашу фотографию<p>
+				<input type="hidden" name="f3" value="128"><br>
+                <input type="file" name="f4"><br>
+            </fieldset>
+            <strong>Вы в первый раз участвуете?</strong> <p><label><input type="radio" name="f5" value="Y">да</label><br>
+            <label><input type="radio" name="f5" value="N">нет</label><br>
+            
+               <fieldset> <legend>Небольшой опрос</legend>
+				<strong>Какой формат встречи Вам больше нравится?</strong> <p><select name="option">
+                <option selected disabled>Выберите вариант</option>
+                <option value="Живое общение">Живое общение</option>
+                <option value="Спортивные мероприятия">Спортивные мероприятия</option>
+                <option value="Концерт">Концерт</option>
+                <option value="Маёвка">Маёвка</option>
+				<option value="Хочу всё">Хочу всё</option>
+            </select><br><br><br><br><br>
+			
+				<strong>Выберите песню,которую хотите услышать на фестивале:</strong><br>
+				<label> <input type="checkbox" name="f7" value="checked">Народ</label><br>
+				<label><input type="checkbox" name="f8" value="checked">Ты только свети</label><br>
+				<label><input type="checkbox" name="f9" value="checked">Я живу в России</label><br>
+				<label><input type="checkbox" name="f10" value="checked">Пробки</label><br>
+				<label><input type="checkbox" name="f11" value="checked">Интернет</label><br>
+				<label><input type="checkbox" name="f12" value="checked">Ядрена-Матрёна</label><br>
+           <br>
+			<strong>Как вы узнали о наших встречах?</strong><br>
+			
+            <textarea name="textarea1"></textarea><br>
+    
+            
+            <button type="submit">Отправить</button>
+            
+        </form>
+    </body>
+</html>

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <title>Exercise</title>
+        
+        <meta charset="utf-8">
+        
+        <style>
+            body {
+                margin: 0;
+                padding: 200px;
+				}
+			.red {
+                background: red;
+                width: 400px;
+                height: 300px;
+                margin: 0 auto;
+                padding: 100px; 
+                position: relative;				
+            }
+            .blue {
+                background: blue;
+                width: 400px;
+                height: 300px;
+                position: relative;
+                z-index: 2;
+				}
+				.green{
+				background: green;
+				width: 200px;
+                height: 100px;
+				position: absolute;
+                z-index: 1;
+				}
+				.g1{
+				
+				z-index: 3;
+                top: 200px;
+                left: 200px;
+				
+				}
+				.g2{
+				width: 200px;
+                height: 200px;
+                top: -50px;
+                left: -50px;
+				
+				}
+				.g3{
+				width: 200px;
+                height: 200px;
+				top: -50px;
+                right: -50px;
+				
+				}
+				.g4{
+				width: 200px;
+                height: 200px;
+				bottom: -50px;
+                left: -50px;
+				
+			
+				}
+				.g5{
+				width: 200px;
+                height: 200px;
+				bottom: -50px;
+                right: -50px;
+				}
+        </style>
+    </head>
+    
+    <body>
+        <div class="red">
+            <div class="blue"></div>
+            <div class="green g1"></div>
+            <div class="green g2"></div>
+            <div class="green g3"></div>
+            <div class="green g4"></div>
+            <div class="green g5"></div>
+        </div>
+    </body>
+</html>

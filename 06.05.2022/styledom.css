@@ -1,0 +1,148 @@
+
+		
+		body {
+			 margin: 0;
+            padding: 50px;
+			background: radial-gradient(ellipse,#34e7e4,#ffd32a);
+			position: relative;
+		}
+		.ch1, .ch2, .ch3, .ch4, .ch5, .ch6 {
+		     line-height: 20px;
+			font-size: 1em;
+			text-align: left;
+			border-radius: 30px;
+			padding: 8px;
+			background-size: auto;
+			border-width: 2px;
+		    border-style: dotted;
+		    border-color: blue;
+            margin: 0 auto; 
+			position: absolute;	
+		}
+		.ch1 {
+			width: 150px;
+			
+			background: #7efff5; 
+			color: #ff3838;
+			top: 20px;
+                right: 630px;
+			z-index: 10;
+           	  
+		}
+		.ch2 {
+			width: 300px;
+			
+			background: #7efff5; 
+			color: #b33939;
+			top: 100px;
+                right: 580px;
+			z-index: 8;
+           	  
+		}
+		.ch3 {
+			width: 300px;
+			
+			background: #7efff5; 
+			color: #4b4b4b;
+			top: 180px;
+                left: 100px;
+    
+			z-index: 6;
+           	  
+		}
+		.ch4 {
+			width: 300px;
+			
+			background: #7efff5; 
+			color: #4b4b4b;
+			top: 360px;
+                right: 700px;
+    
+			z-index: 4;
+           	  
+		}
+		.ch5 {
+			width: 300px;
+			
+			background: #7efff5; 
+			color: #4b4b4b;
+			top: 180px;
+                right: 420px;
+    
+			z-index: 2;
+           	  
+		}
+		.ch6 {
+			width: 300px;
+			
+			background: #7efff5; 
+			color: #4b4b4b;
+			top: 360px;
+                right: 130px;
+    
+			z-index: 1;	  
+		}
+		
+		p:nth-child(1) {
+			color: #596275;
+	background: #f8a5c2;
+		}
+		p:nth-child(2) {
+			color: #227093;
+	background: #33d9b2;
+		}
+		p:nth-child(3) {
+			color: #303952;
+	background: #f7d794;
+		}
+		p:nth-child(4) {
+			color: #8e44ad;
+	background: #95a5a6;
+		}
+		p::before {
+	content:"\2765";
+	position: relative;
+	color: red;
+	font-size: 1em;
+	line-height: 5px;
+		}
+	p> :hover {
+	background: red;
+	color: black;
+	}
+	 .ch3::after {
+	content: "1";
+	color: red;
+	font-size: 13px;
+	padding: 6px;
+	border-radius: 50%;
+	background: #2ed573;
+	border: 1px dotted orange;
+	 }
+	 .ch4::after {
+	content: "2";
+	color: red;
+	font-size: 13px;
+	padding: 6px;
+	border-radius: 50%;
+	background: #2ed573;
+	border: 1px dotted orange;
+	 }
+	 .ch5::after {
+	content: "3";
+	color: red;
+	font-size: 13px;
+	padding: 6px;
+	border-radius: 50%;
+	background: #2ed573;
+	border: 1px dotted orange;
+	 }
+	 .ch6::after {
+	content: "4";
+	color: red;
+	font-size: 13px;
+	padding: 6px;
+	border-radius: 50%;
+	background: #2ed573;
+	border: 1px dotted orange;
+	 }

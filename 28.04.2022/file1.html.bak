@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <title>Шахматы</title>
+        
+        <meta charset="utf-8">
+        
+        <style>
+            .table {
+			display: table;
+                border-collapse: collapse;
+                margin: 0 auto;
+                width: 500px; 
+}				
+				ul {
+				list-style: none;
+				display: table-row;
+				}
+				
+				li {
+				display: table-cell;
+				 width: 50px;
+                height: 50px;
+                text-align: center;
+				vertical-align: middle;
+                font-size: 25px;
+				font-weight: bold;
+				background: lightgray;
+                color: blue;
+				}
+           .td {
+		   font-weight: normal;
+		   background: white;
+		    color: black;
+		   }
+            
+           
+        </style>
+    </head>
+    
+    <body>
+        <div class="table">
+            <ul>
+                <li></li>
+                <li>A</li>
+                <li>B</li>
+                <li>C</li>
+                <li>D</li>
+                <li>E</li>
+                <li>F</li>
+                <li>G</li>
+                <li>H</li>
+                <li></li>
+            </ul>
+            <ul>
+                <li>8</li>
+                <li class="td">&#9820;</td>
+                <li class="td black">&#9822;</td>
+                <li class="td">&#9821;</td>
+                <li class="td black">&#9819;</td>
+                <li class="td">&#9818;</td>
+                <li class="td black">&#9821;</td>
+                <li class="td">&#9822;</td>
+                <li class="td black">&#9820;</td>
+                <li>8</li>
+            </ul>
+            <ul>
+                <li>7</li>
+                <li class="td black">&#9823;</td>
+                <li class="td">&#9823;</td>
+                <li class="td black">&#9823;</td>
+                <li class="td">&#9823;</td>
+                <li class="td black">&#9823;</td>
+                <li class="td">&#9823;</td>
+                <li class="td black">&#9823;</td>
+                <li class="td">&#9823;</td>
+                <li>7</li>
+            </ul>
+            <ul>
+                <li>6</li>
+                <li class="td"></td>
+                <li class="td black"></td>
+                <li class="td"></td>
+                <li class="td black"></td>
+                <li class="td"></td>
+                <li class="td black"></td>
+                <li class="td"></td>
+                <li class="td black"></td>
+                <li>6</li>
+            </ul>
+            <ul>
+                <li>5</li>
+                <li class="td black"></td>
+                <li class="td"></td>
+                <li class="td black"></td>
+                <li class="td"></td>
+                <li class="td black"></td>
+                <li class="td"></td>
+                <li class="td black"></td>
+                <li class="td"></td>
+                <li>5</li>
+            </ul>
+            <ul>
+                <li>4</li>
+                <li class="td"></td>
+                <li class="td black"></td>
+                <li class="td"></td>
+                <li class="td black"></td>
+                <li class="td"></td>
+                <li class="td black"></td>
+                <li class="td"></td>
+                <li class="td black"></td>
+                <li>4</li>
+            </ul>
+            <ul>
+                <li>3</li>
+                <li class="td black"></td>
+                <li class="td"></td>
+                <li class="td black"></td>
+                <li class="td"></td>
+                <li class="td black"></td>
+                <li class="td"></td>
+                <li class="td black"></td>
+                <li class="td"></td>
+                <li>3</li>
+            </ul>
+            <ul>
+                <li>2</li>
+                <li class="td">&#9817;</td>
+                <li class="td black">&#9817;</td>
+                <li class="td">&#9817;</td>
+                <li class="td black">&#9817;</td>
+                <li class="td">&#9817;</td>
+                <li class="td black">&#9817;</td>
+                <li class="td">&#9817;</td>
+                <li class="td black">&#9817;</td>
+                <li>2</li>
+            </ul>
+            <ul>
+                <li>1</li>
+                <li class="td black">&#9814;</td>
+                <li class="td">&#9816;</td>
+                <li class="td black">&#9815;</td>
+                <li class="td">&#9813;</td>
+                <li class="td black">&#9812;</td>
+                <li class="td">&#9815;</td>
+                <li class="td black">&#9816;</td>
+                <li class="td">&#9814;</td>
+                <li>1</li>
+            </ul>
+            <ul>
+                <li></li>
+                <li>A</li>
+                <li>B</li>
+                <li>C</li>
+                <li>D</li>
+                <li>E</li>
+                <li>F</li>
+                <li>G</li>
+                <li>H</li>
+                <li></li>
+            </ul>
+        </div>
+    </body>
+</html>

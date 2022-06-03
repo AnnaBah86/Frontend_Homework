@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <title></title>
+        
+        <meta charset="utf-8">
+        
+        <style>
+            ol {
+                /*list-style-image: url('plant.png');*/
+                list-style-type: upper-alpha;
+            }
+            ::marker {
+                color: green;
+            }
+            .brick {
+                width: 600px;
+                height: 2000px;
+                margin: 50px auto;
+                background: url('Luffys-flag-2-icon.png') center / contain no-repeat, url('plant.png') right bottom repeat, #4cd137;
+                /*background:  url('Octocat_github.png') center / contain repeat;*/
+                background-attachment: fixed;
+            }
+        </style>
+    </head>
+    
+    <body>
+        <ol>
+            <li value="10">First</li>
+            <li>Second</li>
+            <li>Third</li>
+            <li>Fourth</li>
+            <li>Fifth</li>
+            <li>Sixth</li>
+        </ol>
+        
+        <div class="brick"></div>
+    </body>
+</html>
